@@ -25,5 +25,6 @@ function getRandomHexColor() {
             // Wyłącz przycisk Stop
             stopButton.disabled = true;
             clearTimeout(timeoutId);
+            document.body.style.backgroundColor = '#ffffff';
         });
 
